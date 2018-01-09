@@ -1,0 +1,26 @@
+#sistem
+alias off="shutdown -P 0"
+alias install="sudo apt-get install"
+alias update="sudo apt-get update"
+alias upgrade="sudo apt-get upgrade"
+alias configure="sudo apt-get configure -a"
+alias f="sudo apt-get -f install"
+
+
+#git
+alias clone="git clone"
+alias push="git push origin master"
+alias pull="git pull origin master"
+alias cekout="git checkout"
+alias status="git status -v"
+alias gac="git add . && git commit -m "
+
+#laravel
+alias serve="php artisan serve"
+alias art="php artisan"
+alias migrate="php artisan migrate"
+alias refresh="php artisan migrate:refresh"
+alias model="php artisan make:model"
+alias controller="php artisan make:controller"
+alias list="php artisan route:list"
+
