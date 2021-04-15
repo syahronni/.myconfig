@@ -27,5 +27,5 @@ alias controller="php artisan make:controller"
 alias list="php artisan route:list"
 
 #youtube-dl
-alias mp3 = "youtube-dl -x --audio-format mp3"
+alias mp3="youtube-dl -x --audio-format mp3"
 
