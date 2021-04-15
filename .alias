@@ -1,20 +1,20 @@
-export PS1="\n\[\e[33m\]\u\[\e[m\]@\[\e[35m\]\h\[\e[m\]:\[\e[2m\]\w\[\e[m\]\n\\$ "
+export PS1="\\[\033[34m\]\u\[\033[m\]@\[\033[35m\] \[\033[33;1m\]\w\[\033[m\] (\$(git branch 2>/dev/null | grep '^*' | colrm 1 2))\n\\$ "
 
 #sistem
-alias off="shutdown -P 0"
-alias install="sudo apt-get install"
-alias update="sudo apt-get update"
-alias upgrade="sudo apt-get upgrade"
-alias configure="sudo apt-get configure -a"
-alias f="sudo apt-get -f install"
+alias off="poweroff"
+alias gedit="mousepad"
+alias web="cd /run/media/syahroni/ssd/app/web/"
+alias mp3="youtube-dl -x --audio-format mp3"
 
 
 #git
 alias clone="git clone"
-alias push="git push origin master"
-alias pull="git pull origin master"
-alias cekout="git checkout"
-alias status="git status -v"
+alias push="git push origin"
+alias pull="git pull origin"
+alias gco="git checkout"
+alias gcob="git checkout -b"
+alias gdel="git branch -D"
+alias gstatus="git status -v"
 alias gac="git add . && git commit -m "
 
 #laravel
