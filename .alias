@@ -5,6 +5,7 @@ alias off="poweroff"
 alias gedit="mousepad"
 alias web="cd /run/media/syahroni/ssd/app/web/"
 alias mp3="youtube-dl -x --audio-format mp3"
+alias rm-zone="find ~/app -type f -name "*:Zone.Identifier" -exec rm -f {} \;"
 
 
 #git
